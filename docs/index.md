@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /src/web/1
+      link: /src/web/01_HTML/1
     - theme: alt
       text: API Examples
       link: /api-examples

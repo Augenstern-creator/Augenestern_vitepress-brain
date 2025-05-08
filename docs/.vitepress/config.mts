@@ -6,6 +6,8 @@ import markdownItTaskCheckbox from 'markdown-it-task-checkbox'
 // 禁用F12
 import vitepressProtectPlugin from "vitepress-protect-plugin"
 
+import markdownItMark from 'markdown-it-mark'
+
 export default defineConfig({
   lang: 'zh-CN',
   title: "逍遥の小窝",
@@ -36,6 +38,7 @@ export default defineConfig({
     // 开启 Markdown 扩展语法
     config: md => {
       // 启用高亮语法
+      md.use(markdownItMark)
       // 启用Todo
       md.use(markdownItTaskCheckbox)
     },
