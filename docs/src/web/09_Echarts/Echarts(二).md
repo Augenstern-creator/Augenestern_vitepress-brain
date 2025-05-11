@@ -380,7 +380,7 @@ echarts.registerMap('chinaMap',chinaJson)
 </html>
 ```
 
-<img src="Echarts(二).assets/10.png" style="zoom:150%;" />
+![](Echarts(二).assets/10.png)
 
 ## 2.1、省份json获取
 
