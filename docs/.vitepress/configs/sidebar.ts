@@ -87,7 +87,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             items: [
                 { text: '初识Node', link: '/src/web/10_Node/01_尚硅谷Node' },
                 { text: 'Node模块化与npm', link: '/src/web/10_Node/02_尚硅谷Node' },
-                { text: 'MongoDB数据库', link: '/src/web/10_Node/03_尚硅谷Node' },
+                { text: 'MongoDB数据库', link: '/src/web/10_Node/03_尚硅谷Mongodb' },
                 { text: '接口与会话', link: '/src/web/10_Node/04_尚硅谷Node' },
                 { text: 'pnpm包管理工具', link: '/src/web/10_Node/05_pnpm' },
             ]
