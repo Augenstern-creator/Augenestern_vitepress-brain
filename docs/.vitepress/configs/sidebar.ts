@@ -164,11 +164,22 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
     // 当用户位于 `/src/java/` 目录时，会显示此侧边栏
     '/src/java/': [
         {
-            text: 'Config',
+            text: '🍇 JavaSE',
             items: [
-                { text: 'Index', link: '/config/' },
-                { text: 'Three', link: '/config/three' },
-                { text: 'Four', link: '/config/four' }
+                { text: 'Java历史', link: '/src/java/Readme' },
+                { text: 'Java环境搭建', link: '/src/java/00.java环境搭建' },
+                { text: 'Java基础总结', link: '/src/java/00_java基础大总结' },
+                { text: 'Java继承', link: '/src/java/00_java基础大总结' },
+            ]
+        },
+        {
+            text: '🍇 面向对象',
+            items: [
+                { text: '继承', link: '/src/java/01_Java继承' },
+                { text: '接口和内部类', link: '/src/java/02_Java_接口和内部类' },
+                { text: '多态', link: '/src/java/03_Java_多态和内部类' },
+                { text: '常用API与Collection集合', link: '/src/java/04_Java_常用API与Collection集合' },
+                { text: '迭代器与List、Set集合', link: '/src/java/04_Java_常用API与Collection集合' },
             ]
         },
 
