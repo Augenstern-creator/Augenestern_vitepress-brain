@@ -106,19 +106,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             ]
         },
         {
-            text: '🍫 Vue3',
-            collapsed: false,
-            items: [
-                { text: '初识Vue3', link: '/src/web/11_Vue3/Vue3(一)' },
-                { text: 'Vue3组件', link: '/src/web/11_Vue3/Vue3(二)' },
-                { text: 'Vue3组合式API', link: '/src/web/11_Vue3/Vue3(三)' },
-                { text: 'WebPack与Vite', link: '/src/web/11_Vue3/Vue3(四)' },
-                { text: 'VueX', link: '/src/web/11_Vue3/Vue3(五)' },
-                { text: 'axios', link: '/src/web/11_Vue3/axios(一)' },
-                { text: 'Pinia', link: '/src/web/11_Vue3/Pinia(一)' },
-            ]
-        },
-        {
             text: '🍬 WebPack',
             collapsed: false,
             items: [
@@ -161,27 +148,165 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
         },
     ],
 
-    // 当用户位于 `/src/java/` 目录时，会显示此侧边栏
+    // 当用户位于 `/src/javabase/` 目录时，会显示此侧边栏
     '/src/java/': [
         {
             text: '🍇 JavaSE',
+            collapsed: true,
             items: [
-                { text: 'Java历史', link: '/src/java/Readme' },
-                { text: 'Java环境搭建', link: '/src/java/00.java环境搭建' },
-                { text: 'Java基础总结', link: '/src/java/00_java基础大总结' },
-                { text: 'Java继承', link: '/src/java/00_java基础大总结' },
+                { text: '1、Java历史', link: '/src/java/javabase/Readme' },
+                { text: '2、Java环境搭建', link: '/src/java/javabase/00.java环境搭建' },
+                { text: '3、Java基础总结', link: '/src/java/javabase/00_java基础大总结' },
+                { text: '4、Java继承', link: '/src/java/javabase/01_Java继承' },
+                { text: '5、Java接口和内部类', link: '/src/java/javabase/02_Java_接口和内部类' },
+                { text: '6、Java多态', link: '/src/java/javabase/03_Java_多态和内部类' },
+                { text: '7、Java常用API与Collection集合', link: '/src/java/javabase/04_Java_常用API与Collection集合' },
+                { text: '8、Java迭代器与List、Set集合', link: '/src/java/javabase/05_Java_迭代器与List、Set集合' },
+                { text: '9、JavaMap集合', link: '/src/java/javabase/06_Java_Map集合' },
+                { text: '10、Java异常与线程', link: '/src/java/javabase/07_Java_异常与线程' },
+                { text: '11、Java线程池与并发', link: '/src/java/javabase/08_Java_线程池与并发' },
+                { text: '12、Java Stream流与字节流', link: '/src/java/javabase/09_Java_Stream流与字节流' },
+                { text: '13、Java各种流与属性集', link: '/src/java/javabase/10_Java_各种流与属性集' },
+                { text: '14、Java网络编程与NIO', link: '/src/java/javabase/11_Java_网络编程与NIO' },
+                { text: '15、Java注解反射与动态代理', link: '/src/java/javabase/12_Java_注解反射与动态代理' },
+                { text: '16、Java XML和Dom4j', link: '/src/java/javabase/13_Java_XML和Dom4j' },
             ]
         },
         {
-            text: '🍇 面向对象',
+            text: '🍈 MySQL',
+            collapsed: true,
             items: [
-                { text: '继承', link: '/src/java/01_Java继承' },
-                { text: '接口和内部类', link: '/src/java/02_Java_接口和内部类' },
-                { text: '多态', link: '/src/java/03_Java_多态和内部类' },
-                { text: '常用API与Collection集合', link: '/src/java/04_Java_常用API与Collection集合' },
-                { text: '迭代器与List、Set集合', link: '/src/java/04_Java_常用API与Collection集合' },
+                { text: 'MySQL(一)', link: '/src/java/mysql/黑马MySQL(一)' },
+                { text: 'MySQL(二)', link: '/src/java/mysql/黑马MySQL(二)' },
+                { text: 'MySQL(三)', link: '/src/java/mysql/黑马MySQL(三)' },
+                { text: 'MySQL(四)', link: '/src/java/mysql/黑马MySQL(四)' },
+            ]
+        },
+        {
+            text: '🍉 JDBC',
+            collapsed: true,
+            items: [
+                { text: 'JDBC', link: '/src/java/jdbc/狂神说JDBC' },
+            ]
+        },
+        {
+            text: '🍊 JavaWeb',
+            collapsed: true,
+            items: [
+                { text: '1、JavaWeb之Tomcat', link: '/src/java/javaweb/狂神说Tomcat' },
+                { text: '2、JavaWeb之Servlet', link: '/src/java/javaweb/狂神说Servlet' },
+                { text: '3、JavaWeb之Cookie和Session', link: '/src/java/javaweb/cookie和session' },
+                { text: '4、JavaWeb之Filter和listener', link: '/src/java/javaweb/过滤器和监听器' },
+                { text: '5、JavaWeb之JSP', link: '/src/java/javaweb/狂神说JSP' },
+            ]
+        },
+        {
+            text: '🍋 JavaEE',
+            collapsed: true,
+            items: [
+                { text: '1、Spring(一)', link: '/src/java/javaee/传智spring(一)' },
+                { text: '2、Spring(二)', link: '/src/java/javaee/传智spring(二)' },
+                { text: '3、Spring(三)', link: '/src/java/javaee/传智spring(三)' },
+                { text: '4、MyBatis(一)', link: '/src/java/javaee/传智mybatis' },
+                { text: '5、MyBatis(二)', link: '/src/java/javaee/传智mybatis(二)' },
+                { text: '6、SpringMvc(一)', link: '/src/java/javaee/传智SpringMvc(一)' },
+                { text: '7、SpringMvc(二)', link: '/src/java/javaee/传智SpringMvc(二)' },
+                { text: '8、SpringMvc(三)', link: '/src/java/javaee/传智SpringMvc(三)' },
+                { text: '9、SSM整合', link: '/src/java/javaee/SSM整合' },
+                { text: '10、SSM之Ajax', link: '/src/java/javaee/SSM框架课程扩展之Ajax学习' },
+            ]
+        },
+        {
+            text: '🍌 SpringBoot',
+            collapsed: true,
+            items: [
+                { text: '1、SpringBoot(一)', link: '/src/java/springboot/三更SpringBoot(一)' },
+                { text: '2、SpringBoot(二)', link: '/src/java/springboot/三更SpringBoot(二)' },
+                { text: '3、SpringBoot(三)', link: '/src/java/springboot/三更SpringBoot(三)' },
+                { text: '4、SpringBoot(四)', link: '/src/java/springboot/三更SpringBoot(三)' },
+                { text: '5、SpringBoot(五)', link: '/src/java/springboot/三更SpringBoot(三)' },
+            ]
+        },
+        {
+            text: '🍌 SpringCloud',
+            collapsed: true,
+            items: [
+                { text: '1、SpringCloud(一)', link: '/src/java/springcloud/SpringCloud(一)' },
+                { text: '2、SpringCloud(二)', link: '/src/java/springcloud/SpringCloud(二)' },
+
+            ]
+        },
+
+    ],
+
+    // 当用户位于 `/src/ai/` 目录时，会显示此侧边栏
+    '/src/ai/': [
+        {
+            text: '🍇 Python',
+            collapsed: false,
+            items: [
+                { text: '1、Python环境搭建', link: '/src/ai/python/python安装' },
+                { text: '2、Python(一)', link: '/src/ai/python/python' },
+                { text: '3、Python(二)', link: '/src/ai/python/python(二)' },
+                { text: '4、Python(三)', link: '/src/ai/python/python(三)' },
+                { text: '5、Python(四)', link: '/src/ai/python/python(四)' },
+                { text: '6、Python(五)', link: '/src/ai/python/python(五)' },
+                { text: '7、Python(六)', link: '/src/ai/python/python(六)' },
+                { text: '8、Python(七)', link: '/src/ai/python/python(七)' },
+                { text: '9、Python(八)', link: '/src/ai/python/python(八)' },
+                { text: '10、Python(九)', link: '/src/ai/python/python(九)' },
+                { text: '11、Python(十)', link: '/src/ai/python/python(十)' },
+                { text: '12、Python(十一)', link: '/src/ai/python/python(十一)' },
+                { text: '12、Python(十二)', link: '/src/ai/python/python(十二)' },
+
+            ]
+        },
+
+    ],
+
+    '/src/cloud/': [
+        {
+            text: '🍇 Nginx',
+            collapsed: false,
+            items: [
+                { text: 'Nginx', link: '/src/cloud/nginx/狂神说Nginx' },
+            ]
+        },
+        {
+            text: '🍇 redis',
+            collapsed: false,
+            items: [
+                { text: 'Nginx', link: '/src/cloud/nginx/狂神说Nginx' },
             ]
         },
 
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
