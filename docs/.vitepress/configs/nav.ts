@@ -73,7 +73,17 @@ export const nav: DefaultTheme.Config['nav'] = [
                     { text: 'MyBatis', link: '/src/java/javaee/传智mybatis' },
                     { text: 'SpringMvc', link: '/src/java/javaee/传智SpringMvc(一)' },
                     { text: 'SpringBoot', link: '/src/java/springboot/三更SpringBoot(一)' },
-                    { text: 'SpringCloud', link: '/src/java/springcloud/SpringCloud(一)' },
+                    { text: 'SpringCloudAlibaba', link: '/src/java/springcloud/SpringCloud(一)' },
+                ],
+            },
+            {
+                // 分组标题4
+                text: '微服务',
+                items: [
+                    { text: 'zookeeper', link: '/src/java/zookeeper/zookeeper(一)' },
+                    { text: 'Dubbo', link: '/src/java/dubbo/Dubbo(一)' },
+                    { text: 'Shiro', link: '/src/java/shiro/不良人Shiro(一)' },
+                    { text: 'RabbitMQ', link: '/src/java/rabbitmq/RabbitMQ(一)' },
                 ],
             },
         ],
@@ -83,9 +93,30 @@ export const nav: DefaultTheme.Config['nav'] = [
         items: [
             {
                 // 分组标题1
-                text: 'Nginx',
+                text: '反向代理',
                 items: [
                     { text: 'Nginx', link: '/src/cloud/nginx/狂神说Nginx' },
+                ],
+            },
+            {
+                // 分组标题1
+                text: '非关系数据库',
+                items: [
+                    { text: 'redis', link: '/src/cloud/redis/redis(一)' },
+                ],
+            },
+            {
+                // 分组标题1
+                text: '容器',
+                items: [
+                    { text: 'Docker', link: '/src/cloud/docker/01_Docker' },
+                ],
+            },
+            {
+                // 分组标题1
+                text: '阿里云计算',
+                items: [
+                    { text: 'ACP云计算', link: '/src/cloud/acp/ACP云计算(一)' },
                 ],
             },
         ],
@@ -95,35 +126,9 @@ export const nav: DefaultTheme.Config['nav'] = [
         items: [
             {
                 // 分组标题1
-                text: 'PyThon',
+                text: 'PyThon基础',
                 items: [
                     { text: 'Python Base', link: '/src/ai/python/python安装' },
-                ],
-            },
-            {
-                // 分组标题2
-                text: 'Java进阶',
-                items: [
-                    { text: 'MySQL', link: '/src/java/mysql/黑马MySQL(一)' },
-                    { text: 'JDBC', link: '/src/java/jdbc/狂神说JDBC' },
-                ],
-            },
-            {
-                // 分组标题3
-                text: 'JavaWeb',
-                items: [
-                    { text: 'JavaWeb', link: '/src/java/javaweb/狂神说Tomcat' },
-                ],
-            },
-            {
-                // 分组标题4
-                text: 'JavaEE',
-                items: [
-                    { text: 'Spring', link: '/src/java/javaee/传智spring(一)' },
-                    { text: 'MyBatis', link: '/src/java/javaee/传智mybatis' },
-                    { text: 'SpringMvc', link: '/src/java/javaee/传智SpringMvc(一)' },
-                    { text: 'SpringBoot', link: '/src/java/springboot/三更SpringBoot(一)' },
-                    { text: 'SpringCloud', link: '/src/java/springcloud/SpringCloud(一)' },
                 ],
             },
         ],

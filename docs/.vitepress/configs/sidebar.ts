@@ -228,12 +228,41 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             ]
         },
         {
-            text: '🍌 SpringCloud',
+            text: '🍇 SpringCloud',
             collapsed: true,
             items: [
                 { text: '1、SpringCloud(一)', link: '/src/java/springcloud/SpringCloud(一)' },
                 { text: '2、SpringCloud(二)', link: '/src/java/springcloud/SpringCloud(二)' },
 
+            ]
+        },
+        {
+            text: '🍈 Zookeeper',
+            collapsed: true,
+            items: [
+                { text: '1、zookeeper(一)', link: '/src/java/zookeeper/zookeeper(一)' },
+            ]
+        },
+        {
+            text: '🍉 Dubbo',
+            collapsed: true,
+            items: [
+                { text: '1、Dubbo(一)', link: '/src/java/dubbo/Dubbo(一)' },
+            ]
+        },
+        {
+            text: '🍊 Shiro',
+            collapsed: true,
+            items: [
+                { text: '1、Shiro(一)', link: '/src/java/shiro/不良人Shiro(一)' },
+                { text: '2、Shiro(二)', link: '/src/java/shiro/不良人Shiro(二)' },
+            ]
+        },
+        {
+            text: '🍋 RabbitMQ',
+            collapsed: true,
+            items: [
+                { text: '1、RabbitMQ(一)', link: '/src/java/rabbitmq/RabbitMQ(一)' },
             ]
         },
 
@@ -273,10 +302,29 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             ]
         },
         {
-            text: '🍇 redis',
+            text: '🍇 Redis',
             collapsed: false,
             items: [
-                { text: 'Nginx', link: '/src/cloud/nginx/狂神说Nginx' },
+                { text: '1、redis', link: '/src/cloud/redis/redis(一)' },
+                { text: '2、redis', link: '/src/cloud/redis/redis(二)' },
+                { text: '3、redis', link: '/src/cloud/redis/redis(三)' },
+            ]
+        },
+        {
+            text: '🍇 Docker',
+            collapsed: false,
+            items: [
+                { text: '1、Docker(一)', link: '/src/cloud/docker/01_Docker' },
+                { text: '2、Docker(二)', link: '/src/cloud/docker/02_Docker' },
+                { text: '3、Docker(三)', link: '/src/cloud/docker/03_Docker' },
+            ]
+        },
+        {
+            text: '🍇 阿里云ACP',
+            collapsed: false,
+            items: [
+                { text: '1、ACP云计算', link: '/src/cloud/acp/ACP云计算(一)' },
+                { text: '2、ACP云计算', link: '/src/cloud/acp/ACP云计算(二)' },
             ]
         },
 
