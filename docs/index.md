@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "逍遥の小窝"
+  name: "智能の锁匠 "
   text: "Debug the World"
   image:
     src: /Mirror Ball.webp

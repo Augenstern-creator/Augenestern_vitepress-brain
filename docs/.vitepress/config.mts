@@ -10,8 +10,8 @@ import markdownItMark from 'markdown-it-mark'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "逍遥の小窝",
-  description: "📖边角料构成的小小世界",
+  title: "锁の匠| AI Locksmith",
+  description: "📖智能时代的安全锁匠",
   //fav图标
   head: [
     ['link',{ rel: 'icon', href: '/icon/favicon.ico'}],
