@@ -58,7 +58,7 @@ D:\HappyDevelop\Python3.9\Lib\site-packages\qt6_applications\Qt\bin\designer.exe
 
 这样扩展工具里面就有这两个工具了
 
-<img src="python(九).assets/4.png" style="zoom:200%;" />
+![](python(九).assets/4.png)
 
 
 
