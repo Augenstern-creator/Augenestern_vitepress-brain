@@ -14,6 +14,8 @@ import { useRoute,inBrowser } from 'vitepress';
 // 顶部进度条
 import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
 import 'nprogress-v2/dist/index.css' // 进度条样式
+// 链接卡片
+import Linkcard from "./components/Linkcard.vue"
 
 
 
@@ -48,6 +50,8 @@ export default {
         app.component('HomeUnderline' , HomeUnderline)
         // 注册全局组件: 首页欢呼特效
         app.component('confetti' , confetti)
+        // 注册全局组件: 链接卡片
+        app.component('Linkcard' , Linkcard)
 
         if (inBrowser) {
             NProgress.configure({ showSpinner: false })

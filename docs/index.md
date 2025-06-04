@@ -12,8 +12,8 @@ hero:
       text: 开始
       link: /src/web/01_HTML/1
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我
+      link: /src/about
 
 features:
   - title: Feature A
