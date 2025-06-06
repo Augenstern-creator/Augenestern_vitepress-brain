@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /src/web/01_HTML/1
+      link: /src/ai/python/python安装
     - theme: alt
       text: 关于我
       link: /src/about
