@@ -62,7 +62,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             collapsed: false,
             items: [
                 { text: '机器学习基座', link: '/src/ai/Intelligence/MLearning/黑马人工智能(一)' },
-                { text: '机器学习相关算法(一)', link: '/src/bug/bug' },
+                { text: '机器学习相关算法(一)', link: '/src/ai/Intelligence/MLearning/黑马人工智能(二)' },
                 { text: '机器学习相关算法(二)', link: '/src/ai/Intelligence/MLearning/黑马人工智能(三)' },
             ],
         },
