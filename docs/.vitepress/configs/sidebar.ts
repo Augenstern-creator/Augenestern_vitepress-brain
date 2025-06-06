@@ -35,7 +35,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             collapsed: false,
             items: [
                 { text: 'Django5', link: '/src/ai/python/python(八)' },
-                { text: 'Django5进阶', link: '/src/ai/python/python(十)' },
+                { text: 'Django5进阶', link: '/src/bug/bug' },
                 { text: 'Django5高阶', link: '/src/ai/python/python(十一)' },
             ]
         },
@@ -62,7 +62,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             collapsed: false,
             items: [
                 { text: '机器学习基座', link: '/src/ai/Intelligence/MLearning/黑马人工智能(一)' },
-                { text: '机器学习相关算法(一)', link: '/src/ai/Intelligence/MLearning/黑马人工智能(二)' },
+                { text: '机器学习相关算法(一)', link: '/src/bug/bug' },
                 { text: '机器学习相关算法(二)', link: '/src/ai/Intelligence/MLearning/黑马人工智能(三)' },
             ],
         },
@@ -127,7 +127,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] =  {
             text: '🍊 数据标准化',
             collapsed: false,
             items: [
-                { text: 'Pandas基座', link: '/src/ai/Tools/Pandas/黑马Pandas(一)' },
+                { text: 'Pandas基座', link: '/src/bug/bug' },
                 { text: 'Pandas进阶', link: '/src/ai/Tools/Pandas/黑马Pandas(二)' },
             ],
         },
