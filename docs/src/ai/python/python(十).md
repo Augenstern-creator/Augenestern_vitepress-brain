@@ -553,17 +553,8 @@ def index(request):
 2. index.html如下
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 字符串： {{ msg }} <br>
 字典类型：{{ msg2.tom }},{{ msg2.cat }},{{ msg2.wzw }}
-</body>
-</html>
 ```
 
 ![](python(十).assets/13.png)

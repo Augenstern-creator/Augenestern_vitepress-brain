@@ -28,8 +28,23 @@ export default defineConfig({
       { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }
     ]
   ],
+  vue: {
+    template: {
+      // 跳过部分元素的严格检查
+      compilerOptions: {
+        // 忽略 title 标签的严格检查
+        isCustomElement: (tag) => tag === 'title',
+
+        // 允许重复属性（处理某些特殊情况）
+        preserveAttributeName: true
+      }
+    }
+  },
   //markdown配置
   markdown: {
+    // 允许在 Markdown 中使用特殊字符
+    breaks: true,
+
     image: {
       // 开启图片懒加载
       lazyLoading: true,
