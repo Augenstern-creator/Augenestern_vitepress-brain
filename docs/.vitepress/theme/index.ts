@@ -18,7 +18,6 @@ import 'nprogress-v2/dist/index.css' // 进度条样式
 import Linkcard from "./components/Linkcard.vue"
 
 
-
 // 彩虹背景动画样式
 let homePageStyle: HTMLStyleElement | undefined
 
